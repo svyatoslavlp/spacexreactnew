@@ -9,15 +9,14 @@ const rocketImages = {
   Starship: "starship",
 };
 
-const Features = (props) => {
-  const {
-    name,
-    height,
-    diameter,
-    mass,
-    payload_weights: payLoadWeights,
-    description,
-  } = props;
+const Features = ({
+  name,
+  height,
+  diameter,
+  mass,
+  payload_weights: payLoadWeights,
+  description,
+}) => {
   return (
     <section className="features">
       <h2 className="features-title">
