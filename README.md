@@ -4,4 +4,4 @@
 
 ### ветка work
 
-Урок 2 2:20
+npm i react-router-dom -D
