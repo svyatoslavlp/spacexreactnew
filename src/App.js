@@ -41,7 +41,9 @@ class App extends React.Component {
       <>
         <Header rockets={this.state.rockets} changeRocket={this.changeRocket} />
         <Main rocket={this.state.rocket} />
-        <Features />
+        {this.state.rocketFeatures && (
+          <Features {...this.state.rocketFeatures} />
+        )}
         <Footer />
         {/* <Calendar /> */}
         {/* <Details /> */}
